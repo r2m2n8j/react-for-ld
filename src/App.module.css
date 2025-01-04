@@ -1,0 +1,23 @@
+.calculator{
+    background-color: aliceblue;
+    width: 220px;
+    display: grid;
+}
+
+.textInput{
+    margin: 1cqmax;
+    width: 200px;
+    font-size: 20px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button{
+    width: 45px;
+    height: 45px;
+    margin: 3px;
+}
