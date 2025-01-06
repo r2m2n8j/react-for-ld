@@ -4,6 +4,8 @@
 // import Garage from "./CarGarage/Garage";
 // import ToDoItems from "./ToDo/ToDoItems";
 import style from './App.module.css';
+import ButtonContainer from './Calculator/ButtonContainer';
+import Display from './Calculator/Display';
 
 function App() {
   /**Props */
@@ -27,18 +29,13 @@ function App() {
   // </>
 
   /**Calculator */
-  const digit = [7, 8, 9, 4, 5, 6, 1, 2, 3, 0];
+  
   return (
     <div className={style.calculator}>
-      <input className={style.textInput} type="text" />
-      <div className={style.buttonContainer}>
-        <button className={style.button}>1</button>
-        <button className={style.button}>C</button>
-        <button className={style.button}>3</button>
-        <button className={style.button}>4</button>
-      </div>
+      <Display />
+      <ButtonContainer />
     </div>
-  )
+  );
 
 
 }
