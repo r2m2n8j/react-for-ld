@@ -1,0 +1,10 @@
+.item{
+    border: 2px solid grey;
+    margin-top: 2px;
+    width: 188px;
+    height: 38px;
+    padding: 2px;
+}
+.buyButton{
+float: right;
+}
