@@ -4,3 +4,14 @@
     display: grid;
     border: 5px;
 }
+
+.healthy_food{
+    width: 300px;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 15px;
+}
+.food_heading{
+    text-align: center;
+    width: 250px;
+}
